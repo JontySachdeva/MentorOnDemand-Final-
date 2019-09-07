@@ -1,7 +1,7 @@
 FROM openjdk:latest
 
 # Add Maintainer Info
-LABEL maintainer="rahulkumar191296@gmail.com"
+LABEL maintainer="jontysachdeva007@gmail.com"
 
 
 ADD target/ModMentor.jar ModMentor.jar
