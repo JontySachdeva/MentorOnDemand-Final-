@@ -27,8 +27,8 @@ public class MentorLoginValidator implements Validator {
 		boolean loginResult=mentorService.getMentorLoginStatus(mentorModel);
 		if(loginResult==false)
 		{
-			arg1.rejectValue("email","com.cognizant.controller.wrongUserName");
-			arg1.rejectValue("password","com.cognizant.controller.wrongPassword");			
+			arg1.rejectValue("email","com.mod.controller.wrongUserName");
+			arg1.rejectValue("password","com.mod.controller.wrongPassword");			
 		}
 	}
 

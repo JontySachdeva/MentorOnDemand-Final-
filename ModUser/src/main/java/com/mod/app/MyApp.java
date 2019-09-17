@@ -10,8 +10,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableAutoConfiguration
 @EnableDiscoveryClient
-@ComponentScan(basePackages = "com.cognizant.*")
-@EntityScan(basePackages = "com.cognizant.entity")
+@ComponentScan(basePackages = "com.mod.*")
+@EntityScan(basePackages = "com.mod.entity")
 public class MyApp {
 
 	public static void main(String[] args) {

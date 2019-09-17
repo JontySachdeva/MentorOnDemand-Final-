@@ -26,8 +26,8 @@ public class AdminLoginValidator implements Validator {
 		boolean loginResult=adminService.getAdminLoginStatus(adminModel);
 		if(loginResult==false)
 		{
-			arg1.rejectValue("adminId","com.cognizant.controller.wrongUserName");
-			arg1.rejectValue("password","com.cognizant.controller.wrongPassword");			
+			arg1.rejectValue("adminId","com.mod.controller.wrongUserName");
+			arg1.rejectValue("password","com.mod.controller.wrongPassword");			
 		}
 	}
 
