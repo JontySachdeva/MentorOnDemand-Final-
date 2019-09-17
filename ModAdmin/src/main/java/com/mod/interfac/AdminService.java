@@ -1,5 +1,7 @@
 package com.mod.interfac;
 
+
+
 import com.mod.model.AdminModel;
 
 public interface AdminService {

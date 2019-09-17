@@ -14,7 +14,6 @@ import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "admins_Table")
-
 public class AdminEntity implements Serializable {
 
 	
